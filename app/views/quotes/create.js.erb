@@ -1,2 +1,2 @@
-$("#quote_list").html("<%= j (render 'quotes_list') %>")
+$("#quote_list").append("<%= j (render @quote) %>")
 $("#quote_body").val("");

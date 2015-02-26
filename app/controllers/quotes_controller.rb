@@ -9,6 +9,5 @@ class QuotesController < ApplicationController
 
   def create
     @quote = Quote.create(body: params[:quote][:body])
-    redirect_to quotes_path
   end
 end
